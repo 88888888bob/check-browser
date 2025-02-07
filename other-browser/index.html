@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>浏览器警告</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f8f9fa; /* 浅灰背景 */
+            font-family: sans-serif;
+        }
+
+        .info-container {
+            text-align: center;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+         .info-title{
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: #343a40; /* 深灰色文本 */
+            font-weight: bold;
+         }
+        .login-button {
+            background-color: #9c27b0; /* 紫色背景 */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            text-decoration: none; /* 去除链接下划线 */
+            transition: background-color 0.3s;
+        }
+
+        .login-button:hover {
+            background-color: #7b1fa2; /* 深紫色 */
+        }
+    </style>
+</head>
+<body>
+    <div class="info-container">
+       <h2 class="info-title">您使用了未知浏览器，无法分配最佳的网站，可能显示异常</h2>
+       <h2 class="info-title">建议使用常见浏览器 如百度</h2>
+        <a href="https://main.xn--9kqt24afnh7sw.cn/" class="login-button">继续加载</a>
+    </div>
+</body>
+</html>
